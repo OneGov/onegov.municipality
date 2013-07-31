@@ -12,4 +12,12 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <genericsetup:registerProfile
+        name="init-content"
+        title="onegov.municipality:init-content"
+        directory="profiles/init-content"
+        description=""
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
 </configure>
