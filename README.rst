@@ -27,8 +27,13 @@ Running Plone
   bin/instance fg
 
 
-Running the tests
+Tests
 -----------------
+
+.. image:: https://jenkins.4teamwork.ch/job/onegov.municipality-master-test-plone-4.3.x.cfg/badge/icon
+   :target: https://jenkins.4teamwork.ch/job/onegov.municipality-master-test-plone-4.3.x.cfg
+
+Run tests with:
 
 .. code:: bash
 
