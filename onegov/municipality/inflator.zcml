@@ -14,6 +14,7 @@
         title="OneGov Box Municipality (empty)"
         description="Setup an empty OneGov Box for development"
         profiles="ftw.inflator:setup-language
+                  plonetheme.onegov:default
                   onegov.municipality:default"
         standard="True"
         />
@@ -22,6 +23,7 @@
         title="OneGov Box Municipality with example content"
         description="Setup a OneGov Box for a municipality with example content."
         profiles="ftw.inflator:setup-language
+                  plonetheme.onegov:default
                   onegov.municipality:default
                   onegov.municipality:init-content"
         standard="True"
