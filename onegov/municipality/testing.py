@@ -2,6 +2,7 @@ from plone.app.testing import IntegrationTesting
 from plone.app.testing import PLONE_FIXTURE
 from plone.app.testing import PloneSandboxLayer
 from plone.app.testing import applyProfile
+from plone.testing import z2
 from zope.configuration import xmlconfig
 
 
@@ -17,6 +18,9 @@ class OneGovMunicipalityLayer(PloneSandboxLayer):
             '  <includePluginsOverrides package="plone" />'
             '</configure>',
             context=configurationContext)
+
+        z2.installProduct(app, 'ftw.contentpage')
+        z2.installProduct(app, 'simplelayout.types.common')
 
     def setUpPloneSite(self, portal):
         applyProfile(portal, 'onegov.municipality:default')

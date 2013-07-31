@@ -2,6 +2,7 @@
 <metadata>
     <version>1000</version>
     <dependencies>
+        <dependency>profile-ftw.contentpage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
     </dependencies>
 </metadata>
