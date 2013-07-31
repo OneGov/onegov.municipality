@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:inflator="http://namespaces.zope.org/inflator"
+    i18n_domain="onegov.municipality">
+
+    <include package="ftw.inflator" />
+    <inflator:customize
+        product="OneGov Box Municipality"
+        image="browser/resources/onegovbox_rgb.png"
+        />
+
+    <inflator:bundle
+        title="OneGov Box Municipality (empty)"
+        description="Setup an empty OneGov Box for development"
+        profiles="ftw.inflator:setup-language
+                  onegov.municipality:default"
+        standard="True"
+        />
+
+    <inflator:bundle
+        title="OneGov Box Municipality with example content"
+        description="Setup a OneGov Box for a municipality with example content."
+        profiles="ftw.inflator:setup-language
+                  onegov.municipality:default
+                  onegov.municipality:init-content"
+        standard="True"
+        />
+
+</configure>
