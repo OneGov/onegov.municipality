@@ -32,6 +32,7 @@ setup(name='onegov.municipality',
       install_requires=[
         'Plone',
         'ftw.inflator',
+        'ftw.upgrade',
         'plonetheme.onegov',
         'setuptools',
         ],
