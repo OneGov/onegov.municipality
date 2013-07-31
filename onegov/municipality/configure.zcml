@@ -4,6 +4,8 @@
     xmlns:i18n="http://namespaces.zope.org/i18n"
     i18n_domain="onegov.municipality">
 
+    <include package=".browser" />
+
     <genericsetup:registerProfile
         name="default"
         title="onegov.municipality:default"
