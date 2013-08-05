@@ -32,6 +32,7 @@ setup(name='onegov.municipality',
       install_requires=[
         'Plone',
         'ftw.contentpage',
+        'ftw.file',
         'ftw.inflator',
         'ftw.upgrade',
         'ftw.contentmenu',
