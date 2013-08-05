@@ -36,6 +36,7 @@ setup(name='onegov.municipality',
         'ftw.upgrade',
         'ftw.contentmenu',
         'plonetheme.onegov',
+        'ftw.topics',
         'setuptools',
         ],
 
