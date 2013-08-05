@@ -20,6 +20,7 @@ class OneGovMunicipalityLayer(PloneSandboxLayer):
             context=configurationContext)
 
         z2.installProduct(app, 'ftw.contentpage')
+        z2.installProduct(app, 'ftw.file')
         z2.installProduct(app, 'simplelayout.types.common')
 
     def setUpPloneSite(self, portal):
