@@ -6,6 +6,7 @@
         <dependency>profile-ftw.contentpage:default</dependency>
         <dependency>profile-ftw.contentmenu:default</dependency>
         <dependency>profile-ftw.file:default</dependency>
+        <dependency>profile-ftw.globalstatusmessage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
     </dependencies>
 </metadata>

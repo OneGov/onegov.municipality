@@ -31,13 +31,14 @@ setup(name='onegov.municipality',
 
       install_requires=[
         'Plone',
+        'ftw.contentmenu',
         'ftw.contentpage',
         'ftw.file',
+        'ftw.globalstatusmessage',
         'ftw.inflator',
-        'ftw.upgrade',
-        'ftw.contentmenu',
-        'plonetheme.onegov',
         'ftw.topics',
+        'ftw.upgrade',
+        'plonetheme.onegov',
         'setuptools',
         ],
 
