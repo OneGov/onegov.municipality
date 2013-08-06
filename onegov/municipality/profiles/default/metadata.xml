@@ -11,5 +11,6 @@
         <dependency>profile-ftw.globalstatusmessage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
         <dependency>profile-ftw.subsite:default</dependency>
+        <dependency>profile-seantis.dir.events:default</dependency>
     </dependencies>
 </metadata>
