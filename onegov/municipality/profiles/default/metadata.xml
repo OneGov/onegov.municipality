@@ -12,5 +12,6 @@
         <dependency>profile-ftw.globalstatusmessage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
         <dependency>profile-ftw.subsite:default</dependency>
+        <dependency>profile-ftw.lawgiver:default</dependency>
     </dependencies>
 </metadata>

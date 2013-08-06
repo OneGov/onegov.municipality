@@ -22,6 +22,7 @@ class OneGovMunicipalityLayer(PloneSandboxLayer):
         z2.installProduct(app, 'Products.DateRecurringIndex')
         z2.installProduct(app, 'ftw.contentpage')
         z2.installProduct(app, 'ftw.file')
+        z2.installProduct(app, 'ftw.subsite')
         z2.installProduct(app, 'simplelayout.types.common')
 
     def setUpPloneSite(self, portal):
