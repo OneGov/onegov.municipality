@@ -8,5 +8,6 @@
         <dependency>profile-ftw.file:default</dependency>
         <dependency>profile-ftw.globalstatusmessage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
+        <dependency>profile-ftw.subsite:default</dependency>
     </dependencies>
 </metadata>
