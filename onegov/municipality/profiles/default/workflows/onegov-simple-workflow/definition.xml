@@ -29,6 +29,12 @@
   <permission>Modify constrain types</permission>
   <permission>Modify portal content</permission>
   <permission>Modify view template</permission>
+  <permission>PloneFormGen: Add Content</permission>
+  <permission>PloneFormGen: Edit Advanced Fields</permission>
+  <permission>PloneFormGen: Edit Encryption Specs</permission>
+  <permission>PloneFormGen: Edit Mail Addresses</permission>
+  <permission>PloneFormGen: Edit Python Fields</permission>
+  <permission>PloneFormGen: Edit TALES Fields</permission>
   <permission>Portlets: Manage portlets</permission>
   <permission>Sharing page: Delegate Contributor role</permission>
   <permission>Sharing page: Delegate Editor role</permission>
@@ -197,6 +203,36 @@
       <permission-role>Site Administrator</permission-role>
     </permission-map>
     <permission-map name="Modify view template" acquired="False"/>
+    <permission-map name="PloneFormGen: Add Content" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Advanced Fields" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Encryption Specs" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Mail Addresses" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Python Fields" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit TALES Fields" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="Portlets: Manage portlets" acquired="False">
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
@@ -468,6 +504,36 @@
       <permission-role>Site Administrator</permission-role>
     </permission-map>
     <permission-map name="Modify view template" acquired="False"/>
+    <permission-map name="PloneFormGen: Add Content" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Advanced Fields" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Encryption Specs" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Mail Addresses" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit Python Fields" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
+    <permission-map name="PloneFormGen: Edit TALES Fields" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="Portlets: Manage portlets" acquired="False">
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
