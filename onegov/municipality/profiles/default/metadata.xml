@@ -4,8 +4,9 @@
     <dependencies>
         <dependency>profile-ftw.topics:default</dependency>
         <dependency>profile-ftw.contentpage:default</dependency>
-        <dependency>profile-ftw.footer:default</dependency>
         <dependency>profile-ftw.contentmenu:default</dependency>
+        <dependency>profile-seantis.dir.events:default</dependency>
+        <dependency>profile-ftw.footer:default</dependency>
         <dependency>profile-ftw.file:default</dependency>
         <dependency>profile-Products.PloneFormGen:default</dependency>
         <dependency>profile-ftw.globalstatusmessage:default</dependency>
