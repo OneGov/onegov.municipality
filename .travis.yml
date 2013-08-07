@@ -1,0 +1,12 @@
+language: python
+python: "2.7"
+install:
+    - wget https://launchpad.net/plone/4.3/4.3.1/+download/Plone-4.3.1r1-UnifiedInstaller.tgz
+    - tar -xf Plone-4.3.1r1-UnifiedInstaller.tgz
+    - tar -xf Plone-4.3.1r1-UnifiedInstaller/packages/buildout-cache.tar.bz2
+
+    - ln -s travis.cfg buildout.cfg
+    - virtualenv --no-setuptools .
+    - bin/python bootstrap.py
+    - bin/buildout install test
+script: bin/test
