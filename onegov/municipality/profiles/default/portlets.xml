@@ -13,4 +13,24 @@
         <property name="bottomLevel">0</property>
     </assignment>
 
+    <assignment name="news-portlet" category="context" key="/"
+                manager="plone.rightcolumn" type="newsportlet" visible="True">
+        <property name="classification_items"/>
+        <property name="show_desc">True</property>
+        <property name="portlet_title">Aktuell</property>
+        <property name="days">28</property>
+        <property name="desc_length">50</property>
+        <property name="subjects"/>
+        <property name="only_context">True</property>
+        <property name="show_image">True</property>
+        <property name="path"/>
+        <property name="quantity">5</property>
+        <property name="more_news_link">True</property>
+    </assignment>
+
+    <assignment name="news-archive-portlet" category="content_type"
+                key="NewsFolder" manager="plone.rightcolumn" type="newsarchiveportlet"
+                visible="True"/>
+
 </portlets>
+
