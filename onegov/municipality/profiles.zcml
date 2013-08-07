@@ -20,4 +20,12 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <genericsetup:registerProfile
+        name="init-topics"
+        title="onegov.municipality:topic creation"
+        directory="profiles/init-topics"
+        description=""
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
 </configure>

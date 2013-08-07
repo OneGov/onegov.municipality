@@ -1,0 +1,58 @@
+[
+
+    {
+        "_path:translate(onegov.municipality.contentcreation)": "politik",
+        "_type": "ContentPage",
+        "title:translate(onegov.municipality.contentcreation)": "Politik",
+        "_children": [
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "information",
+                "_type": "TextBlock",
+                "title:translate(onegov.municipality.contentcreation)": "Information",
+                "text": "Lorem ipsum Proident culpa anim do irure quis quis in aliqua sit laborum laborum ut reprehenderit dolore laboris ullamco dolore deserunt deserunt tempor voluptate deserunt occaecat magna officia quis sit sit culpa mollit do.",
+                "showTitle": false,
+                "image:file": "images/municipal.jpeg",
+                "_annotations": {"imageLayout": "middle-right"}
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "abstimmungen-und-wahlen",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Abstimmungen und Wahlen"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "gemeinderat",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Gemeinderat"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "gemeindeverbaende",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Gemeindeverbände"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "kommissionen",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Kommissionen"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "parteien",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Parteien"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "rechtssammlung",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Rechtssammlung"
+            }
+
+        ]
+
+    }
+
+]
