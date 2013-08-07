@@ -4,9 +4,12 @@
     xmlns:inflator="http://namespaces.zope.org/inflator"
     i18n_domain="onegov.municipality">
 
+    <i18n:registerTranslations directory="locales" />
+
     <include package=".browser" />
     <include file="profiles.zcml" />
     <include file="inflator.zcml" />
+    <include file="lawgiver.zcml" />
 
     <class class="Products.PloneFormGen.content.form.FormFolder">
         <implements interface="ftw.contentpage.interfaces.ICategorizable" />

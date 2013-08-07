@@ -1,0 +1,19 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:lawgiver="http://namespaces.zope.org/lawgiver"
+    i18n_domain="onegov.municipality">
+
+    <include package="ftw.lawgiver" file="meta.zcml" />
+
+    <!-- In the onegov-simple-workflow we don't use some Plone standard
+         Roles, so we deactivate them. -->
+    <lawgiver:map_permissions
+        action_group="delegate plone roles"
+        permissions="Sharing page: Delegate Reader role,
+                     Sharing page: Delegate Contributor role,
+                     Sharing page: Delegate Reviewer role"
+        workflow="onegov-simple-workflow"
+        />
+
+</configure>

@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 version = '1.0.dev0'
 
 tests_require = [
+    'ftw.lawgiver [tests]',
     'plone.app.testing',
     'tinycss',
     ]
@@ -39,6 +40,7 @@ setup(name='onegov.municipality',
         'ftw.footer',
         'ftw.globalstatusmessage',
         'ftw.inflator[dexterity]',
+        'ftw.lawgiver',
         'ftw.subsite',
         'ftw.topics',
         'ftw.upgrade',

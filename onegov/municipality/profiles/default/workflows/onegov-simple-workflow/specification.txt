@@ -1,0 +1,38 @@
+[OneGov Simple Workflow]
+Initial Status: Draft
+
+
+Role Mapping:
+  Visitor => Anonymous
+  Editor => Editor
+  Administrator => Site Administrator
+  System Administrator => Manager
+
+
+General:
+  An Editor can always view any content.
+  An Editor can always view inactive objects.
+  An Editor can always edit any content.
+  An Editor can always add new content.
+  An Editor can always delete any content.
+
+  An Administrator can always perform the same actions as an Editor.
+  An Administrator can always manage security.
+  An Administrator can always manage portlets.
+
+  A System Administrator can always perform the same actions as an Administrator.
+
+
+
+Transitions:
+  publish (Draft => Published)
+  retract (Published => Draft)
+
+
+Status Draft:
+  An Editor can publish.
+
+
+Status Published:
+  A Visitor can view this content.
+  An Editor can retract.
