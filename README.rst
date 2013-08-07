@@ -30,8 +30,8 @@ Running Plone
 Tests
 -----------------
 
-.. image:: https://jenkins.4teamwork.ch/job/onegov.municipality-master-test-plone-4.3.x.cfg/badge/icon
-   :target: https://jenkins.4teamwork.ch/job/onegov.municipality-master-test-plone-4.3.x.cfg
+.. image:: https://secure.travis-ci.org/OneGov/onegov.municipality.png
+   :target: http://travis-ci.org/OneGov/onegov.municipality
 
 Run tests with:
 
