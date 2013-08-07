@@ -7,6 +7,7 @@
         <dependency>profile-ftw.footer:default</dependency>
         <dependency>profile-ftw.contentmenu:default</dependency>
         <dependency>profile-ftw.file:default</dependency>
+        <dependency>profile-Products.PloneFormGen:default</dependency>
         <dependency>profile-ftw.globalstatusmessage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
         <dependency>profile-ftw.subsite:default</dependency>
