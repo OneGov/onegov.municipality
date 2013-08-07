@@ -1,0 +1,1002 @@
+[
+
+    {
+        "_path:translate(onegov.municipality.contentcreation)": "private",
+        "_type": "ftw.topics.TopicTree",
+        "title:translate(onegov.municipality.contentcreation)": "Privatpersonen",
+        "_children": [
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "bildung",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Bildung",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "berufsbildung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Berufsbildung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "berufswahl-studium-und-laufbahn",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Berufswahl, Studium und Laufbahn"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "bildungsprojekte",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Bildungsprojekte"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "bruckenangebote",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Brückenangebote"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "hohere-fachschulen-und-fachhochschulen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Höhere Fachschulen und Fachhochschulen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "lehrstellen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Lehrstellen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "mittelschulen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Mittelschulen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "musikschulen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Musikschulen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "obligatorische-schulzeit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Obligatorische Schulzeit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "privatschulen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Privatschulen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "stipendien",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Stipendien"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "weiterbildung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Weiterbildung"
+                    }
+
+                ]
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "gesundheit-und-soziales",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Gesundheit und Soziales",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "ahv-iv",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "AHV / IV"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "behinderung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Behinderung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "familienerganzende-kinderbetreuung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Familienergänzende Kinderbetreuung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "gesundheit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gesundheit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "heime",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Heime"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "krankheit-und-unfall",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Krankheit und Unfall"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "lebensmittel",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Lebensmittel"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "notfall",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Notfall"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "sozialhilfe",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Sozialhilfe"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "spitaler-und-kliniken",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Spitäler und Kliniken"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "sucht",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Sucht"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "umweltbelastungen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Umweltbelastungen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "vormundschaft",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Vormundschaft"
+                    }
+
+                ]
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "kultur-sport-und-tourismus",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Kultur, Sport und Tourismus",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "archive-und-bibliotheken",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Archive und Bibliotheken"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "archaologie",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Archäologie"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "buhnen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Bühnen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "Denkmal",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Denkmal"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "jugendkultur",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Jugendkultur"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "kino",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Kino"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "kultur-fur-kinder",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Kultur für Kinder"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "kulturforderung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Kulturförderung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "museen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Museen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "sport",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Sport"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "tourismus",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Tourismus"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "veranstaltungen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Veranstaltungen"
+                    }
+
+                ]
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "mobilitat",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Mobilität",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "motorfahrzeuge",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Motorfahrzeuge"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "schiff",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Schiff"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "strasse",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Strasse"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "velo-und-fussganger",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Velo und Fussgänger"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "offentlicher-verkehr",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Öffentlicher Verkehr"
+                    }
+
+                ]
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "personliches",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Persönliches",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "adoption",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Adoption"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "alter",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Alter"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "auslanderinnen-und-auslander",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Ausländerinnen und Ausländer"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "ausweise-und-bescheinigungen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Ausweise und Bescheinigungen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "einburgerung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Einbürgerung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "familie",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Familie"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "freizeit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Freizeit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "freizeitsport",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Freizeitsport"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "geburt",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Geburt"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "kinder-und-jugendliche",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Kinder und Jugendliche"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "konfessionen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Konfessionen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "steuern",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Steuern Private"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "tiere",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Tiere"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "todesfall",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Todesfall"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "versicherungen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Versicherungen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "wohnen-und-umziehen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Wohnen und Umziehen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "zivilstand",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Zivilstand"
+                    }
+
+                ]
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "sicherheit",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Sicherheit",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "feuerwehr",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Feuerwehr"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "gewalt",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gewalt"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "militar",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Militär"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "notorganisation",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Notorganisation"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "notvorrat",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Notvorrat"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "polizei",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Polizei"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "rettungsdienst",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Rettungsdienst"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "zivilschutz",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Zivilschutz"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "staat-und-recht",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Staat und Recht",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "abstimmungen-und-wahlen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Abstimmungen und Wahlen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "datenschutz",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Datenschutz"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "gerichte",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gerichte"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "gesetze",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gesetze"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "gleichstellung-von-frau-und-mann",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gleichstellung von Frau und Mann"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "justizvollzug",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Justizvollzug"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "ombudsstellen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Ombudsstellen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "schlichtungsstellen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Schlichtungsstellen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "steuern",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Steuern"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "strafrechtspflege",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Strafrechtspflege"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "werwaltungsrechtspflege",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Verwaltungsrechtspflege"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "zivilrechtspflege",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Zivilrechtspflege"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "umwelt-und-bauen",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Umwelt und Bauen",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "abfall",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Abfall"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "bauen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Bauen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "boden-natur-und-landschaft",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Boden, Natur und Landschaft"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "chemie-und-gifte",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Chemie und Gifte"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "energie",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Energie"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "geoinformationen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Geoinformationen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "grundbuch",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Grundbuch"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "grundeigentum",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Grundeigentum"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "luft-und-klima",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Luft und Klima"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "larm",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Lärm"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "raumplanung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Raumplanung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "offentliche-bauprojekte",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Öffentliche Bauprojekte"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "wirtschaft-und-arbeit",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Wirtschaft und Arbeit",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitgebende",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitgebende"
+                    },
+
+                   {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitnehmende",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitnehmende"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitskonflikt",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitskonflikt"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitslosigkeit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitslosigkeit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitssicherheit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitssicherheit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "berufliche-selbstandigkeit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Berufliche Selbständigkeit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "betreibung-und-konkurs",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Betreibung und Konkurs"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "feiertage",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Feiertage"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "handelsregister",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Handelsregister"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "landwirtschaft",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Landwirtschaft"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "laufbahnplanung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Laufbahnplanung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "pensionierung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Pensionierung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "stiftungen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Stiftungen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "wirtschaftsforderung-und-pflege",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Wirtschaftsförderung und -pflege"
+                    }
+
+                ]
+            }
+
+        ]
+
+    },
+
+
+    {
+        "_path:translate(onegov.municipality.contentcreation)": "unternehmen",
+        "_type": "ftw.topics.TopicTree",
+        "title:translate(onegov.municipality.contentcreation)": "Unternehmen",
+        "_children": [
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "bauen-und-submissionen",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Bauen und Submissionen",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "bauen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Bauen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "grossbauvorhaben",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Grossbauvorhaben"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "raumplanung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Raumplanung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "submissionen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Submissionen"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "grunden-umstrukturieren-und-auflosen",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Gründen, Umstrukturieren und Auflösen",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "auflosen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Auflösen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "grunden",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gründen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "handelsregister",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Handelsregister"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "umstrukturieren",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Umstrukturieren"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "wirtschaftsforderung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Wirtschaftsförderung"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "personal",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Personal",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitsvermittlung-und-personalverleih",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitsvermittlung und Personalverleih"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "berufsbildung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Berufsbildung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "feiertage",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Feiertage"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "mitarbeitende",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Mitarbeitende"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "sozialversicherung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Sozialversicherung"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "schutz-und-sicherheit",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Schutz und Sicherheit",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitssicherheit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitssicherheit"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "brandschutz",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Brandschutz"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "gewasserschutz",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Gewässerschutz"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "lebensmittelsicherheit",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Lebensmittelsicherheit"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "standort-und-steuern",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Standort und Steuern",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "arbeitsmarkt",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Arbeitsmarkt"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "bauland",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Bauland"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "businessevents",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Businessevents"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "immobilien",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Immobilien"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "innovation",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Innovation"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "interessenvertretung",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Interessenvertretung"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "justiz",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Justiz"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "netzwerk",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Netzwerk"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "statistik",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Statistik"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "steuern",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Steuern Unternehmen"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "wirtschaftsstandort",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Wirtschaftsstandort"
+                    }
+
+                ]
+
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "umwelt-und-verkehr",
+                "_type": "ftw.topics.Topic",
+                "title:translate(onegov.municipality.contentcreation)": "Umwelt und Verkehr",
+                "_children": [
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "deponien",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Deponien"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "geoinformationen",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Geodaten & GIS"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "landwirtschaft",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Landwirtschaft"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "umweltschutz",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Umweltschutz"
+                    },
+
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "verkehr",
+                        "_type": "ftw.topics.Topic",
+                        "title:translate(onegov.municipality.contentcreation)": "Verkehr"
+                    }
+
+                ]
+
+            }
+
+        ]
+
+    }
+
+]

@@ -1,0 +1,69 @@
+[
+
+    {
+        "_path:translate(onegov.municipality.contentcreation)": "gemeinde",
+        "_type": "ContentPage",
+        "title:translate(onegov.municipality.contentcreation)": "Gemeinde",
+        "_children": [
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "information",
+                "_type": "TextBlock",
+                "title:translate(onegov.municipality.contentcreation)": "Information",
+                "text": "Lorem ipsum Proident culpa anim do irure quis quis in aliqua sit laborum laborum ut reprehenderit dolore laboris ullamco dolore deserunt deserunt tempor voluptate deserunt occaecat magna officia quis sit sit culpa mollit do.",
+                "showTitle": false,
+                "image:file": "images/municipal.jpeg",
+                "_annotations": {"imageLayout": "middle"}
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "freizeit-und-sport",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Freizeit und Sport"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "gemeindeportraet",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Gemeindeporträt"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "geschichte",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Geschichte"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "kirche",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Kirche"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "kultur",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Kultur"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "sehenswuerdigkeiten",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Sehenswürdigkeiten"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "wirtschaft",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Wirtschaft und Tourismus"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "wohnen",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Wohnen"
+            }
+        ]
+
+    }
+
+]

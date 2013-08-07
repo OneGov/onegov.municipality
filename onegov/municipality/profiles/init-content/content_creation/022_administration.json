@@ -1,0 +1,70 @@
+[
+
+    {
+        "_path:translate(onegov.municipality.contentcreation)": "verwaltung",
+        "_type": "ContentPage",
+        "_properties": {
+          "layout": ["string", "authorities_view"]
+        },
+        "title:translate(onegov.municipality.contentcreation)": "Verwaltung",
+        "_children": [
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "aktuell",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Aktuell",
+                "_children": [
+                    {
+                        "_id:translate(onegov.municipality.contentcreation)": "news",
+                        "_type": "NewsFolder",
+                        "title:translate(onegov.municipality.contentcreation)": "News",
+                        "_children": [
+                            {
+                                "_id:translate(onegov.municipality.contentcreation)": "onegovbox",
+                                "_type": "News",
+                                "image:file": "images/onegovbox.jpeg",
+                                "title:translate(onegov.municipality.contentcreation)": "OneGovBox wurde erfolgreich installiert",
+                                "description": "Lorem ipsum Minim consequat magna tempor consequat nisi mollit laboris nostrud enim laboris dolor labore sit incididunt.",
+                                "effectiveDate": "2013/08/06 09:00:00"
+                            }
+
+                        ]
+                    }
+
+                ]
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "bau-und-planung",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Bau, Energie und Umwelt"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "bildung",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Bildung"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "finanzen-und-sicherheit",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Finanzen und Sicherheit"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "praesidiales-und-kultur",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Präsidiales und Kultur"
+            },
+
+            {
+                "_id:translate(onegov.municipality.contentcreation)": "gesundheit-und-soziales",
+                "_type": "ContentPage",
+                "title:translate(onegov.municipality.contentcreation)": "Gesundheit und Soziales"
+            }
+
+        ]
+
+    }
+
+]
