@@ -25,6 +25,7 @@
         profiles="ftw.inflator:setup-language
                   plonetheme.onegov:default
                   onegov.municipality:default
+                  onegov.municipality:init-topics
                   onegov.municipality:init-content"
         standard="True"
         />
