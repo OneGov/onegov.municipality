@@ -19,6 +19,7 @@ class OneGovMunicipalityLayer(PloneSandboxLayer):
             '</configure>',
             context=configurationContext)
 
+        z2.installProduct(app, 'Products.DateRecurringIndex')
         z2.installProduct(app, 'ftw.contentpage')
         z2.installProduct(app, 'ftw.file')
         z2.installProduct(app, 'simplelayout.types.common')
