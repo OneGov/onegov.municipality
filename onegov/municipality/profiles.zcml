@@ -28,4 +28,11 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <genericsetup:importStep
+        name="onegov.municipality.custom.handlers"
+        title="ongov municipality custom import handlers"
+        description=""
+        handler="onegov.municipality.setuphandlers.import_various"
+        />
+
 </configure>
