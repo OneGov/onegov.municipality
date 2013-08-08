@@ -4,6 +4,7 @@
         "_type": "seantis.dir.events.directory",
         "title": "Veranstaltungen",
         "cat1_suggestions": ["Ausstellung & Museum", "Brauchtum", "Diverses"],
-        "cat2_suggestions": ["London", "New York", "Paris"]
+        "cat2_suggestions": ["London", "New York", "Paris"],
+        "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
     }
 ]

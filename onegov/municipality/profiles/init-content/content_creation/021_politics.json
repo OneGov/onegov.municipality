@@ -4,6 +4,7 @@
         "_path:translate(onegov.municipality.contentcreation)": "politik",
         "_type": "ContentPage",
         "title:translate(onegov.municipality.contentcreation)": "Politik",
+        "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published",
         "_children": [
             {
                 "_id:translate(onegov.municipality.contentcreation)": "information",
@@ -18,37 +19,43 @@
             {
                 "_id:translate(onegov.municipality.contentcreation)": "abstimmungen-und-wahlen",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Abstimmungen und Wahlen"
+                "title:translate(onegov.municipality.contentcreation)": "Abstimmungen und Wahlen",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "gemeinderat",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Gemeinderat"
+                "title:translate(onegov.municipality.contentcreation)": "Gemeinderat",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "gemeindeverbaende",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Gemeindeverbände"
+                "title:translate(onegov.municipality.contentcreation)": "Gemeindeverbände",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "kommissionen",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Kommissionen"
+                "title:translate(onegov.municipality.contentcreation)": "Kommissionen",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "parteien",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Parteien"
+                "title:translate(onegov.municipality.contentcreation)": "Parteien",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "rechtssammlung",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Rechtssammlung"
+                "title:translate(onegov.municipality.contentcreation)": "Rechtssammlung",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             }
 
         ]

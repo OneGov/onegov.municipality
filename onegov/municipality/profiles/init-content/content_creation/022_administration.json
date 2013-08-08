@@ -7,6 +7,7 @@
           "layout": ["string", "authorities_view"]
         },
         "title:translate(onegov.municipality.contentcreation)": "Verwaltung",
+        "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published",
         "_children": [
             {
                 "_id:translate(onegov.municipality.contentcreation)": "aktuell",
@@ -36,31 +37,36 @@
             {
                 "_id:translate(onegov.municipality.contentcreation)": "bau-und-planung",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Bau, Energie und Umwelt"
+                "title:translate(onegov.municipality.contentcreation)": "Bau, Energie und Umwelt",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "bildung",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Bildung"
+                "title:translate(onegov.municipality.contentcreation)": "Bildung",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "finanzen-und-sicherheit",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Finanzen und Sicherheit"
+                "title:translate(onegov.municipality.contentcreation)": "Finanzen und Sicherheit",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "praesidiales-und-kultur",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Präsidiales und Kultur"
+                "title:translate(onegov.municipality.contentcreation)": "Präsidiales und Kultur",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "gesundheit-und-soziales",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Gesundheit und Soziales"
+                "title:translate(onegov.municipality.contentcreation)": "Gesundheit und Soziales",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             }
 
         ]
