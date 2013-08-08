@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <assignment name="offnungszeiten" category="context" key="/"
+    manager="ftw.footer.column2" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;p&gt;&lt;span&gt;Montag bis Freitag&lt;/span&gt;&lt;br /&gt;&lt;span&gt;08.00 - 11.45 Uhr und &lt;/span&gt;&lt;br /&gt;&lt;span&gt;13.30 - 17.00 Uhr&lt;/span&gt;&lt;br /&gt;&lt;span&gt;Donnerstag bis 18.00 Uhr&lt;/span&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Öffnungszeiten</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="links" category="context" key="/"
+    manager="ftw.footer.column3" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;p&gt;&lt;a class="external-link" href="http://#" target="_self" title=""&gt;Veranstaltungen&lt;/a&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;a class="external-link" href="http://#" target="_self" title=""&gt;Link&lt;/a&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Links</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="gemeinde" category="context" key="/"
+    manager="ftw.footer.column1" type="plone.portlet.static.Static"
+    visible="True">
+  <property
+     name="text">&lt;p&gt;&lt;span&gt;Strasse 123 &lt;/span&gt;&lt;br /&gt;&lt;span&gt;0000 Ort&lt;/span&gt;&lt;br /&gt;email@gemeinde.ch&lt;br /&gt;&lt;span&gt;Telefon xxx xxx xx xx&lt;/span&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Gemeinde</property>
+  <property name="footer"/>
+ </assignment>
+ <assignment name="impressum" category="context" key="/"
+    manager="ftw.footer.column4" type="plone.portlet.static.Static"
+    visible="True">
+  <property name="text">&lt;p&gt;Herausgeberin: Gemeinde&lt;/p&gt;
+   &lt;p&gt;Umsetzung: &lt;/p&gt;
+   &lt;p&gt;&lt;span&gt;OneGov Box: &lt;/span&gt;&lt;a class="external-link" href="http://onegov.ch/" target="_blank"&gt;Verein OneGov.ch&lt;/a&gt;&lt;/p&gt;</property>
+  <property name="more_url"/>
+  <property name="omit_border">False</property>
+  <property name="header">Impressum</property>
+  <property name="footer"/>
+ </assignment>
+
+</portlets>
+
