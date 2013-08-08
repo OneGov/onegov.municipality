@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from ftw.subsite.portlets import teaserportlet
 from plone.namedfile.file import NamedImage
 from plone.portlets.interfaces import IPortletAssignmentMapping
@@ -14,7 +15,7 @@ SUBSITE_PORTLETS = [
              'id': 'privatpersonen',
              'teasertitle': u'Privatpersonen',
              'internal_target': 'private',
-             'teaserdesc': u'Lorem ipsum Incididunt laboris est cupidatat eli',
+             'teaserdesc': u'Familien, Paare und Einzelpersonen schätzen unsere Gemeinde als natur- und zentrumsnahen Wohnort mit moderner Infrastruktur und guten Schulen.',
              'imagename': 'municipal.jpeg'}
         ]},
 
@@ -24,7 +25,7 @@ SUBSITE_PORTLETS = [
              'id': 'unternehmen',
              'teasertitle': u'Unternehmen',
              'internal_target': 'unternehmen',
-             'teaserdesc': u'Lorem ipsum Incididunt laboris est cupidatat eli',
+             'teaserdesc': u'Die zentrale Lage, genügend Raum für Unternehmen, qualifizierte Arbeitskräfte und die gute Wohnlage zeichnen unsere Gemeinde aus.',
              'imagename': 'municipal.jpeg'}
         ]},
 
@@ -34,7 +35,7 @@ SUBSITE_PORTLETS = [
              'id': 'gemeinde',
              'teasertitle': u'Gemeinde',
              'internal_target': 'gemeinde',
-             'teaserdesc': u'Lorem ipsum Incididunt laboris est cupidatat eli',
+             'teaserdesc': u'Unsere Gemeinde liegt wunderschön eingebetet zwischen dem See und den Bergen.',
              'imagename': 'municipal.jpeg'}
         ]},
 
@@ -44,7 +45,7 @@ SUBSITE_PORTLETS = [
              'id': 'politik',
              'teasertitle': u'Politik',
              'internal_target': 'politik',
-             'teaserdesc': u'Lorem ipsum Incididunt laboris est cupidatat eli',
+             'teaserdesc': u'Politische Entscheide fällt die Stimmbevölkerung an der Urne. Ausführende Behörde ist der Gemeinderat, der aus fünf Mitgliedern besteht.',
              'imagename': 'municipal.jpeg'}
         ]}
 ]
