@@ -4,6 +4,7 @@
         "_path:translate(onegov.municipality.contentcreation)": "gemeinde",
         "_type": "ContentPage",
         "title:translate(onegov.municipality.contentcreation)": "Gemeinde",
+        "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published",
         "_children": [
             {
                 "_id:translate(onegov.municipality.contentcreation)": "information",
@@ -18,49 +19,57 @@
             {
                 "_id:translate(onegov.municipality.contentcreation)": "freizeit-und-sport",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Freizeit und Sport"
+                "title:translate(onegov.municipality.contentcreation)": "Freizeit und Sport",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "gemeindeportraet",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Gemeindeporträt"
+                "title:translate(onegov.municipality.contentcreation)": "Gemeindeporträt",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "geschichte",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Geschichte"
+                "title:translate(onegov.municipality.contentcreation)": "Geschichte",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "kirche",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Kirche"
+                "title:translate(onegov.municipality.contentcreation)": "Kirche",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "kultur",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Kultur"
+                "title:translate(onegov.municipality.contentcreation)": "Kultur",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "sehenswuerdigkeiten",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Sehenswürdigkeiten"
+                "title:translate(onegov.municipality.contentcreation)": "Sehenswürdigkeiten",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "wirtschaft",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Wirtschaft und Tourismus"
+                "title:translate(onegov.municipality.contentcreation)": "Wirtschaft und Tourismus",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             },
 
             {
                 "_id:translate(onegov.municipality.contentcreation)": "wohnen",
                 "_type": "ContentPage",
-                "title:translate(onegov.municipality.contentcreation)": "Wohnen"
+                "title:translate(onegov.municipality.contentcreation)": "Wohnen",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
             }
         ]
 
