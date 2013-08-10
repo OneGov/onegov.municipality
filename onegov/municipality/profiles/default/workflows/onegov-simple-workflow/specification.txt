@@ -9,6 +9,11 @@ Role Mapping:
   System Administrator => Manager
 
 
+Visible Roles:
+  Editor
+  Administrator
+
+
 General:
   An Editor can always view any content.
   An Editor can always view inactive objects.

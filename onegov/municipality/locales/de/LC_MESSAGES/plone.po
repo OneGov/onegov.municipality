@@ -12,10 +12,20 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
+
+msgid "onegov-simple-workflow--ROLE--Anonymous"
+msgstr "Besucher"
+
+msgid "onegov-simple-workflow--ROLE--Editor"
+msgstr "Redaktor"
+
+msgid "onegov-simple-workflow--ROLE--Manager"
+msgstr "System Administrator"
+
+msgid "onegov-simple-workflow--ROLE--Site Administrator"
+msgstr "Administrator"
 
 msgid "onegov-simple-workflow--STATUS--draft"
 msgstr "Entwurf"

@@ -17,6 +17,18 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 
+msgid "onegov-simple-workflow--ROLE--Anonymous"
+msgstr ""
+
+msgid "onegov-simple-workflow--ROLE--Editor"
+msgstr ""
+
+msgid "onegov-simple-workflow--ROLE--Manager"
+msgstr ""
+
+msgid "onegov-simple-workflow--ROLE--Site Administrator"
+msgstr ""
+
 msgid "onegov-simple-workflow--STATUS--draft"
 msgstr ""
 
