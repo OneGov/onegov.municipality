@@ -40,6 +40,7 @@
   <permission>Sharing page: Delegate Editor role</permission>
   <permission>Sharing page: Delegate Reader role</permission>
   <permission>Sharing page: Delegate Reviewer role</permission>
+  <permission>Sharing page: Delegate Site Administrator role</permission>
   <permission>Sharing page: Delegate roles</permission>
   <permission>Take ownership</permission>
   <permission>View</permission>
@@ -244,6 +245,10 @@
     </permission-map>
     <permission-map name="Sharing page: Delegate Reader role" acquired="False"/>
     <permission-map name="Sharing page: Delegate Reviewer role" acquired="False"/>
+    <permission-map name="Sharing page: Delegate Site Administrator role" acquired="False">
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="Sharing page: Delegate roles" acquired="False">
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
@@ -545,6 +550,10 @@
     </permission-map>
     <permission-map name="Sharing page: Delegate Reader role" acquired="False"/>
     <permission-map name="Sharing page: Delegate Reviewer role" acquired="False"/>
+    <permission-map name="Sharing page: Delegate Site Administrator role" acquired="False">
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="Sharing page: Delegate roles" acquired="False">
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
