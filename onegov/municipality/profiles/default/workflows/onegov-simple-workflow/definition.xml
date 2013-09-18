@@ -57,6 +57,7 @@
   <permission>ftw.contentpage: Edit teaser image on News</permission>
   <permission>ftw.file: Add File</permission>
   <permission>ftw.file: Edit advanced fields</permission>
+  <permission>ftw.footer: Manage Footer</permission>
   <permission>ftw.slider: Add Container</permission>
   <permission>ftw.slider: Add Pane</permission>
   <permission>ftw.subsite: Add Subsite</permission>
@@ -325,6 +326,10 @@
       <permission-role>Site Administrator</permission-role>
     </permission-map>
     <permission-map name="ftw.file: Edit advanced fields" acquired="False"/>
+    <permission-map name="ftw.footer: Manage Footer" acquired="False">
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="ftw.slider: Add Container" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
@@ -641,6 +646,10 @@
       <permission-role>Site Administrator</permission-role>
     </permission-map>
     <permission-map name="ftw.file: Edit advanced fields" acquired="False"/>
+    <permission-map name="ftw.footer: Manage Footer" acquired="False">
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="ftw.slider: Add Container" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
