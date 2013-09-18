@@ -24,6 +24,7 @@ General:
   An Administrator can always perform the same actions as an Editor.
   An Administrator can always manage security.
   An Administrator can always manage portlets.
+  An Administrator can always manage footer.
 
   A System Administrator can always perform the same actions as an Administrator.
 
