@@ -67,6 +67,7 @@
   <permission>iterate : Check in content</permission>
   <permission>iterate : Check out content</permission>
   <permission>plone.app.collection: Add Collection</permission>
+  <permission>plonetheme.onegov: Manage Styles</permission>
   <permission>simplelayout.types.common: Add Page</permission>
   <permission>simplelayout.types.common: Add Paragraph</permission>
   <state state_id="onegov-simple-workflow--STATUS--draft" title="Draft">
@@ -375,6 +376,7 @@
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
     </permission-map>
+    <permission-map name="plonetheme.onegov: Manage Styles" acquired="False"/>
     <permission-map name="simplelayout.types.common: Add Page" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
@@ -695,6 +697,7 @@
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
     </permission-map>
+    <permission-map name="plonetheme.onegov: Manage Styles" acquired="False"/>
     <permission-map name="simplelayout.types.common: Add Page" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
