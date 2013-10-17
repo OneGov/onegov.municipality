@@ -47,5 +47,5 @@ class TestFTIIcons(TestCase):
     def get_css(self):
         parser = tinycss.make_parser()
         css_file = self.layer['portal'].restrictedTraverse(
-            '++theme++plonetheme.onegov/css/main.css').path
+            '++theme++plonetheme.onegov/sass/components/icons.scss').path
         return parser.parse_stylesheet_file(css_file)
