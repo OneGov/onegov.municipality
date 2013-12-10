@@ -46,6 +46,7 @@ setup(name='onegov.municipality',
         'ftw.upgrade',
         'plonetheme.onegov',
         'seantis.dir.events',
+        'seantis.dir.eventsportlet',
         'setuptools',
         ],
 
