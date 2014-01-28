@@ -3,7 +3,6 @@ from plone.app.testing import PLONE_FIXTURE
 from plone.app.testing import PloneSandboxLayer
 from plone.app.testing import applyProfile
 from plone.testing import z2
-from zope.configuration import xmlconfig
 
 
 class OneGovMunicipalityLayer(PloneSandboxLayer):
@@ -11,13 +10,14 @@ class OneGovMunicipalityLayer(PloneSandboxLayer):
     defaultBases = (PLONE_FIXTURE, )
 
     def setUpZope(self, app, configurationContext):
-        xmlconfig.string(
-            '<configure xmlns="http://namespaces.zope.org/zope">'
-            '  <include package="z3c.autoinclude" file="meta.zcml" />'
-            '  <includePlugins package="plone" />'
-            '  <includePluginsOverrides package="plone" />'
-            '</configure>',
-            context=configurationContext)
+        import onegov.municipality
+        self.loadZCML(package=onegov.municipality)
+
+        import collective.deletepermission
+        self.loadZCML(package=collective.deletepermission)
+
+        import plone.app.iterate
+        self.loadZCML(package=plone.app.iterate)
 
         z2.installProduct(app, 'Products.DateRecurringIndex')
         z2.installProduct(app, 'ftw.contentpage')

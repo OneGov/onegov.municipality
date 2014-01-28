@@ -6,6 +6,7 @@
 
     <i18n:registerTranslations directory="locales" />
 
+    <includeDependencies package="." />
     <include package=".browser" />
     <include package=".upgrades" />
     <include file="profiles.zcml" />
