@@ -14,9 +14,8 @@ You can install onegov.municipality with buildout:
 
   git clone https://github.com/OneGov/onegov.municipality.git
   cd onegov.municipality
-  ln -s development.cfg buildout.cfg
   python2.7 bootstrap.py
-  bin/buildout
+  bin/buildout -c development.cfg
 
 
 Running Plone

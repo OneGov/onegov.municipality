@@ -6,8 +6,8 @@
 /README.html
 /bin/
 /build/
-/buildout.cfg
 /coverage/
+/custom.cfg
 /develop-eggs/
 /dist/
 /eggs/
