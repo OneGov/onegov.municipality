@@ -89,11 +89,32 @@ def disable_custom_css(site):
     skins['custom']['ploneCustom.css'].update_data(disabled)
 
 
+def hide_directory_items_in_navigation(site):
+    types_by_package = {
+        'seantis.dir.contacts': ['seantis.dir.contacts.item']
+    }
+
+    properties = getToolByName(site, 'portal_properties')
+    blacklist = properties.navtree_properties.metaTypesNotToList
+
+    installed = get_installed_products(site)
+
+    for package, types in types_by_package.items():
+        if package in installed:
+            for t in types:
+                if t not in blacklist:
+                    print 'hiding {} in navigation'.format(t)
+                    properties.navtree_properties._updateProperty(
+                        'metaTypesNotToList', blacklist + (t, )
+                    )
+
+
 def main(app):
     steps = [
         remove_old_event_portlets,
         install_onegov_theme,
-        disable_custom_css
+        disable_custom_css,
+        hide_directory_items_in_navigation
     ]
 
     for site in get_plone_sites(root=app):
