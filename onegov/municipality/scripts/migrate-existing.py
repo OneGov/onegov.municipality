@@ -94,7 +94,8 @@ def disable_custom_css(site):
 
 def hide_directory_items_in_navigation(site):
     types_by_package = {
-        'seantis.dir.contacts': ['seantis.dir.contacts.item']
+        'seantis.dir.contacts': ['seantis.dir.contacts.item'],
+        'Seantis Dir Events': ['seantis.dir.events.item']
     }
 
     properties = getToolByName(site, 'portal_properties')
