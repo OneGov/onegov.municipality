@@ -78,7 +78,10 @@ def disable_custom_css(site):
     if not 'ploneCustom.css' in skins['custom']:
         return
 
-    existing_data = skins['custom']['ploneCustom.css'].data
+    try:
+        existing_data = skins['custom']['ploneCustom.css'].data
+    except AttributeError:
+        return
 
     if '@media DISABLED' in existing_data:
         return
