@@ -70,6 +70,16 @@ def install_onegov_theme(site):
     installer.installProducts(['plonetheme.onegov'])
 
 
+def uninstall_izug_basetheme(site):
+    if 'izug.basetheme' not in get_installed_products(site):
+        return
+
+    print 'uninstalling izug.basetheme'
+
+    installer = getToolByName(site, 'portal_quickinstaller')
+    installer.uninstallProducts(['izug.basetheme'])
+
+
 def disable_custom_css(site):
     skins = getToolByName(site, 'portal_skins')
     if not 'custom' in skins:
@@ -118,8 +128,9 @@ def main(app):
     steps = [
         remove_old_event_portlets,
         install_onegov_theme,
+        uninstall_izug_basetheme,
         disable_custom_css,
-        hide_directory_items_in_navigation
+        hide_directory_items_in_navigation,
     ]
 
     for site in get_plone_sites(root=app):
