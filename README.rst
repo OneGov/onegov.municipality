@@ -5,6 +5,22 @@ This is a Plone policy package, setting up a `OneGov Box`_ based
 website for municipalities.
 
 
+Releases
+--------
+
+The `OneGov Box`_ comes with a Known Good Set of packages which can be found
+in the release folder of this repo. There's currently no stable release.
+
+Stable releseas are versions without appendage like rc1 or dev. 1.0 or 1.0.1
+for example.
+
+Once a Known Good Set is released, it will not be changed anymore, so it is
+safe to use that set for production.
+
+The latest.cfg in the releases folder always contains the latest pinned
+packages.
+
+
 Development installation
 ------------------------
 
