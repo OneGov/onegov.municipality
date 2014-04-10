@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0.rc1'
+version = '1.0.rc2'
 
 tests_require = [
     'ftw.lawgiver [tests]',
