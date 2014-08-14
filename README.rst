@@ -54,6 +54,17 @@ Run tests with:
 
     bin/test
 
+Heroku
+------
+
+This assumes that you signed up for a Heroku account and installed the Heroku Toolbelt:
+
+.. code:: bash
+
+  heroku create --buildpack git://github.com/niteoweb/heroku-buildpack-plone.git
+  heroku config:add BUILDOUT_CFG=heroku.cfg
+  git push heroku heroku:master
+
 
 Links
 -----
