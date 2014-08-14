@@ -10,6 +10,12 @@ class OneGovMunicipalityLayer(PloneSandboxLayer):
     defaultBases = (PLONE_FIXTURE, )
 
     def setUpZope(self, app, configurationContext):
+        import seantis.plonetools
+        self.loadZCML(package=seantis.plonetools)
+
+        import seantis.people
+        self.loadZCML(package=seantis.people)
+
         import onegov.municipality
         self.loadZCML(package=onegov.municipality)
 
