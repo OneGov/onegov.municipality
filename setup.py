@@ -6,32 +6,36 @@ tests_require = [
     'ftw.lawgiver [tests]',
     'plone.app.testing',
     'tinycss',
-    ]
+]
 
 
-setup(name='onegov.municipality',
-      version=version,
-      long_description=open("README.rst").read() + "\n" + \
-          open("docs/HISTORY.txt").read(),
-
-      # Get more strings from
-      # http://pypi.python.org/pypi?%3Aaction=list_classifiers
-      classifiers=[
+setup(
+    name='onegov.municipality',
+    version=version,
+    long_description=(
+        '\n'.join((
+            open("README.rst").read(),
+            open("docs/HISTORY.txt").read()
+        ))
+    ),
+    # Get more strings from
+    # http://pypi.python.org/pypi?%3Aaction=list_classifiers
+    classifiers=[
         "Programming Language :: Python",
-        ],
+    ],
 
-      keywords='plone onegov municipality',
-      author='Verein OneGov',
-      author_email='mailto:info@4teamwork.ch',
-      url='https://github.com/OneGov/onegov.municipality',
-      license='GPL2',
+    keywords='plone onegov municipality',
+    author='Verein OneGov',
+    author_email='mailto:info@4teamwork.ch',
+    url='https://github.com/OneGov/onegov.municipality',
+    license='GPL2',
 
-      packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['onegov'],
-      include_package_data=True,
-      zip_safe=False,
+    packages=find_packages(exclude=['ez_setup']),
+    namespace_packages=['onegov'],
+    include_package_data=True,
+    zip_safe=False,
 
-      install_requires=[
+    install_requires=[
         'Plone',
         'Products.PloneFormGen',
         'ftw.contentmenu',
@@ -49,15 +53,16 @@ setup(name='onegov.municipality',
         'seantis.dir.base[extended_data]',
         'seantis.dir.events',
         'seantis.dir.eventsportlet',
+        'seantis.people',
         'setuptools',
-        ],
+    ],
 
-      tests_require=tests_require,
-      extras_require=dict(tests=tests_require),
+    tests_require=tests_require,
+    extras_require=dict(tests=tests_require),
 
-      entry_points="""
-      # -*- Entry points: -*-
-      [z3c.autoinclude.plugin]
-      target = plone
-      """,
-      )
+    entry_points="""
+    # -*- Entry points: -*-
+    [z3c.autoinclude.plugin]
+    target = plone
+    """,
+)

@@ -15,8 +15,10 @@
     manager="ftw.footer.column3" type="plone.portlet.static.Static"
     visible="True">
   <property
-     name="text">&lt;p&gt;&lt;a class="external-link" href="veranstaltungen" target="_self" title=""&gt;Veranstaltungen&lt;/a&gt;&lt;/p&gt;
-   &lt;p&gt;&lt;a class="external-link" href="http://#" target="_self" title=""&gt;Link&lt;/a&gt;&lt;/p&gt;</property>
+     name="text">
+      &lt;p&gt;&lt;a href="veranstaltungen" target="_self" title=""&gt;Veranstaltungen&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href="personen" target="_self" title=""&gt;Personenverzeichnis&lt;/a&gt;&lt;/p&gt;
+   </property>
   <property name="more_url"/>
   <property name="omit_border">False</property>
   <property name="header">Links</property>

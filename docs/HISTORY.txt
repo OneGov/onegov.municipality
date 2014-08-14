@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0 (unreleased)
+----------------
+
+- Integrates seantis.people.
 
 1.0rc2 (2014-04-10)
 -------------------
