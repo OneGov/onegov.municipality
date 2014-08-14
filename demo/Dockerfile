@@ -30,7 +30,7 @@ RUN chown onegov:onegov /onegov
 RUN su onegov -c "git clone https://github.com/OneGov/onegov.municipality /onegov"
 
 # speed up plone install
-RUN su onegov -c "curl -L https://launchpad.net/plone/4.3/4.3.2/+download/Plone-4.3.2-UnifiedInstaller.tgz > /tmp/installer.tar.gz"
+RUN su onegov -c "curl -L https://launchpad.net/plone/4.3/4.3.3/+download/Plone-4.3.3-UnifiedInstaller.tgz > /tmp/installer.tar.gz"
 RUN su onegov -c "mkdir /tmp/installer"
 RUN su onegov -c "cd /tmp/installer && tar -xf /tmp/installer.tar.gz --strip-components 1"
 RUN su onegov -c "cd /onegov && tar -xf /tmp/installer/packages/buildout-cache.tar.bz2"
