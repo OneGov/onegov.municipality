@@ -1,0 +1,36 @@
+[
+    {
+        "_path": "personen",
+        "_type": "seantis.people.list",
+        "title": "Personen",
+        "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published",
+        "_properties": {
+            "exclude_from_nav": ["boolean", "false"]
+        },
+        "_children": [
+            {
+                "_id": "joseph-quimby",
+                "_type": "seantis.people.standard",
+                "firstname": "Joseph",
+                "lastname": "Quimby",
+                "picture:file": "images/quimby.png",
+                "email": "quimby@example.org",
+                "address": "Springfield",
+                "website": "https://www.example.org",
+                "function": "Gemeindepräsident",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
+            },
+            {
+                "_id": "clancy-wiggum",
+                "_type": "seantis.people.standard",
+                "firstname": "Clancy",
+                "lastname": "Wiggum",
+                "picture:file": "images/wiggum.png",
+                "email": "wiggum@example.org",
+                "webseite": "https://www.example.org",
+                "function": "Polizeipräsident",
+                "_transitions": "onegov-simple-workflow--TRANSITION--publish--draft_published"
+            }
+        ]
+    }
+]

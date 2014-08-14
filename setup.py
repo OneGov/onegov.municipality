@@ -53,6 +53,7 @@ setup(
         'seantis.dir.base[extended_data]',
         'seantis.dir.events',
         'seantis.dir.eventsportlet',
+        'seantis.people',
         'setuptools',
     ],
 
