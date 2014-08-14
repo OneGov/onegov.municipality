@@ -77,6 +77,7 @@ with two lines added (as noted in the code's comments).
     eggs =
         Plone
         Pillow
+        onegov.municipality
 
 Using this minimal buildout you can install onegov.municipality thusly:
 
