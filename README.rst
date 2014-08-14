@@ -86,22 +86,26 @@ Using this minimal buildout you can install onegov.municipality thusly:
 2. Get bootstrap:
 
 .. code:: bash
+
     curl https://raw.githubusercontent.com/OneGov/onegov.municipality/master/bootstrap.py > bootstrap.py
     curl 
 
 3. Run bootstrap:
 
 .. code:: bash
+
     python boostrap.py
 
 4. Run buildout
 
 .. code:: bash
+
     bin/buildout
 
 5. Run the server
 
 .. code:: bash
+
     bin/instance fg
 
 6. Install onegov municipality on http://localhost:8080 using the user *admin*
