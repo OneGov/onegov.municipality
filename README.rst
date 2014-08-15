@@ -65,8 +65,8 @@ with two lines added (as noted in the code's comments).
     parts = instance
 
     [versions]
-    zc.buildout = >= 2.2.1
-    setuptools = >= 2.2
+    zc.buildout >= 2.2.1
+    setuptools >= 2.2
 
     [instance]
     recipe = plone.recipe.zope2instance
