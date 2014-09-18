@@ -1,6 +1,8 @@
 *.egg-info
 *.mo
 *.pyc
+.DS_Store
+.Python
 onegov.sublime-workspace
 /.installed.cfg
 /.mr.developer.cfg
@@ -12,6 +14,8 @@ onegov.sublime-workspace
 /develop-eggs/
 /dist/
 /eggs/
+/include/
+/lib/
 /parts/
 /src/
 /var/
