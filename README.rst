@@ -21,6 +21,36 @@ The latest.cfg in the releases folder always contains the latest pinned
 packages.
 
 
+Try it!
+-------
+
+If you don't know or care about Plone, but you do know Python, you can get
+an easy demo setup as follows:
+
+Create a virtualenv:
+
+    mkdir demo
+    cd demo
+    virtualenv -p pyhton2.7 .
+
+Activate the virtualenv:
+
+    source bin/activate
+
+Install plock:
+
+    pip install plock
+
+
+Run the plock installation:
+
+    plock -a onegov.municipality -e "https://raw.githubusercontent.com/OneGov/onegov.municipality/master/release/latest.cfg" .
+
+Run plone:
+
+    bin/plone fg
+
+
 Development installation
 ------------------------
 
@@ -88,7 +118,7 @@ Using this minimal buildout you can install onegov.municipality thusly:
 .. code:: bash
 
     curl https://raw.githubusercontent.com/OneGov/onegov.municipality/master/bootstrap.py > bootstrap.py
-    curl 
+    curl
 
 3. Run bootstrap:
 
