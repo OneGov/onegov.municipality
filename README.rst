@@ -4,7 +4,6 @@ onegov.municipality
 This is a Plone policy package, setting up a `OneGov Box`_ based
 website for municipalities.
 
-
 Releases
 --------
 
@@ -115,28 +114,27 @@ Using this minimal buildout you can install onegov.municipality thusly:
 
 2. Get bootstrap:
 
-.. code:: bash
+    .. code:: bash
 
-    curl https://raw.githubusercontent.com/OneGov/onegov.municipality/master/bootstrap.py > bootstrap.py
-    curl
+        curl https://raw.githubusercontent.com/OneGov/onegov.municipality/master/bootstrap.py > bootstrap.py
 
 3. Run bootstrap:
 
-.. code:: bash
+    .. code:: bash
 
-    python boostrap.py
+        python boostrap.py
 
 4. Run buildout
 
-.. code:: bash
+    .. code:: bash
 
-    bin/buildout
+        bin/buildout
 
 5. Run the server
 
-.. code:: bash
+    .. code:: bash
 
-    bin/instance fg
+        bin/instance fg
 
 6. Install onegov municipality on http://localhost:8080 using the user *admin*
 with the password *admin*
