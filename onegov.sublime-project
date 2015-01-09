@@ -5,6 +5,7 @@
 			"path": ".",
             "folder_exclude_patterns": [
                 "bin",
+                "eggs",
                 "develop-eggs",
                 "dist",
                 "onegov.municipality.egg-info",
