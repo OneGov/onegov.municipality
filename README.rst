@@ -30,7 +30,7 @@ Create a virtualenv:
 
     mkdir demo
     cd demo
-    virtualenv -p pyhton2.7 .
+    virtualenv -p python2.7 .
 
 Activate the virtualenv:
 
