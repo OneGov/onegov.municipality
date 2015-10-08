@@ -4,6 +4,7 @@
 .DS_Store
 .Python
 onegov.sublime-workspace
+/pip-selfcheck.json
 /.installed.cfg
 /.mr.developer.cfg
 /README.html
