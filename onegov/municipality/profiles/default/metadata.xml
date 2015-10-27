@@ -2,6 +2,7 @@
 <metadata>
     <version>1002</version>
     <dependencies>
+        <dependency>profile-Products.PloneFormGen:default</dependency>
         <dependency>profile-ftw.topics:default</dependency>
         <dependency>profile-ftw.contentpage:default</dependency>
         <dependency>profile-ftw.contentmenu:default</dependency>
@@ -9,7 +10,6 @@
         <dependency>profile-seantis.people:standard</dependency>
         <dependency>profile-ftw.footer:default</dependency>
         <dependency>profile-ftw.file:default</dependency>
-        <dependency>profile-Products.PloneFormGen:default</dependency>
         <dependency>profile-ftw.globalstatusmessage:default</dependency>
         <dependency>profile-ftw.upgrade:default</dependency>
         <dependency>profile-ftw.subsite:default</dependency>

@@ -24,6 +24,7 @@
   <permission>Change local roles</permission>
   <permission>Delete objects</permission>
   <permission>Delete portal content</permission>
+  <permission>Edit comments</permission>
   <permission>List folder contents</permission>
   <permission>Manage properties</permission>
   <permission>Modify constrain types</permission>
@@ -52,6 +53,7 @@
   <permission>ftw.contentpage: Add News</permission>
   <permission>ftw.contentpage: Add NewsFolder</permission>
   <permission>ftw.contentpage: Add TextBlock</permission>
+  <permission>ftw.contentpage: Add teaser link</permission>
   <permission>ftw.contentpage: Edit teaser image on ContentPage</permission>
   <permission>ftw.contentpage: Edit teaser image on EventPage</permission>
   <permission>ftw.contentpage: Edit teaser image on News</permission>
@@ -68,8 +70,6 @@
   <permission>plone.app.collection: Add Collection</permission>
   <permission>plone.app.event: Import Ical</permission>
   <permission>plonetheme.onegov: Manage Styles</permission>
-  <permission>simplelayout.types.common: Add Page</permission>
-  <permission>simplelayout.types.common: Add Paragraph</permission>
   <state state_id="onegov-simple-workflow--STATUS--draft" title="Draft">
     <exit-transition transition_id="onegov-simple-workflow--TRANSITION--publish--draft_published"/>
     <permission-map name="ATContentTypes: Add Document" acquired="False">
@@ -191,6 +191,11 @@
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
     </permission-map>
+    <permission-map name="Edit comments" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="List folder contents" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
@@ -306,6 +311,7 @@
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
     </permission-map>
+    <permission-map acquired="False" name="ftw.contentpage: Add teaser link"/>
     <permission-map name="ftw.contentpage: Edit teaser image on ContentPage" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
@@ -370,16 +376,6 @@
     </permission-map>
     <permission-map name="plone.app.event: Import Ical" acquired="False"/>
     <permission-map name="plonetheme.onegov: Manage Styles" acquired="False"/>
-    <permission-map name="simplelayout.types.common: Add Page" acquired="False">
-      <permission-role>Editor</permission-role>
-      <permission-role>Manager</permission-role>
-      <permission-role>Site Administrator</permission-role>
-    </permission-map>
-    <permission-map name="simplelayout.types.common: Add Paragraph" acquired="False">
-      <permission-role>Editor</permission-role>
-      <permission-role>Manager</permission-role>
-      <permission-role>Site Administrator</permission-role>
-    </permission-map>
   </state>
   <state state_id="onegov-simple-workflow--STATUS--published" title="Published">
     <exit-transition transition_id="onegov-simple-workflow--TRANSITION--retract--published_draft"/>
@@ -503,6 +499,11 @@
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
     </permission-map>
+    <permission-map name="Edit comments" acquired="False">
+      <permission-role>Editor</permission-role>
+      <permission-role>Manager</permission-role>
+      <permission-role>Site Administrator</permission-role>
+    </permission-map>
     <permission-map name="List folder contents" acquired="False">
       <permission-role>Anonymous</permission-role>
       <permission-role>Editor</permission-role>
@@ -620,6 +621,7 @@
       <permission-role>Manager</permission-role>
       <permission-role>Site Administrator</permission-role>
     </permission-map>
+    <permission-map name="ftw.contentpage: Add teaser link" acquired="False"/>
     <permission-map name="ftw.contentpage: Edit teaser image on ContentPage" acquired="False">
       <permission-role>Editor</permission-role>
       <permission-role>Manager</permission-role>
@@ -684,16 +686,6 @@
     </permission-map>
     <permission-map name="plone.app.event: Import Ical" acquired="False"/>
     <permission-map name="plonetheme.onegov: Manage Styles" acquired="False"/>
-    <permission-map name="simplelayout.types.common: Add Page" acquired="False">
-      <permission-role>Editor</permission-role>
-      <permission-role>Manager</permission-role>
-      <permission-role>Site Administrator</permission-role>
-    </permission-map>
-    <permission-map name="simplelayout.types.common: Add Paragraph" acquired="False">
-      <permission-role>Editor</permission-role>
-      <permission-role>Manager</permission-role>
-      <permission-role>Site Administrator</permission-role>
-    </permission-map>
   </state>
   <transition new_state="onegov-simple-workflow--STATUS--published" title="publish" transition_id="onegov-simple-workflow--TRANSITION--publish--draft_published" after_script="" before_script="" trigger="USER">
     <action category="workflow" icon="" url="%(content_url)s/content_status_modify?workflow_action=onegov-simple-workflow--TRANSITION--publish--draft_published">publish</action>
