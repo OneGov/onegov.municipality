@@ -2,9 +2,9 @@ language: python
 python: "2.7"
 install:
     - pip install setuptools==7.0 --ignore-installed
-    - wget https://launchpad.net/plone/4.3/4.3.3/+download/Plone-4.3.3-UnifiedInstaller.tgz
-    - tar -xf Plone-4.3.3-UnifiedInstaller.tgz
-    - tar -xf Plone-4.3.3-UnifiedInstaller/packages/buildout-cache.tar.bz2
+    - wget https://launchpad.net/plone/4.3/4.3.9/+download/Plone-4.3.9-UnifiedInstaller.tgz
+    - tar -xf Plone-4.3.9-UnifiedInstaller.tgz
+    - tar -xf Plone-4.3.9-UnifiedInstaller/packages/buildout-cache.tar.bz2
 
     - virtualenv --no-setuptools .
     - bin/python bootstrap.py --setuptools-version 7.0 --version 2.2.5
