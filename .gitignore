@@ -12,6 +12,7 @@ onegov.sublime-workspace
 /build/
 /coverage/
 /custom.cfg
+/run_tests.sh
 /develop-eggs/
 /dist/
 /eggs/
