@@ -6,6 +6,7 @@ tests_require = [
     'ftw.lawgiver [tests]',
     'plone.app.testing',
     'tinycss',
+    'Products.SecureMailHost'
 ]
 
 
